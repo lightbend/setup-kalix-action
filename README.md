@@ -31,7 +31,7 @@ jobs:
           project-id: ${{ vars.KALIX_PROJECT }}
 ```
 
-## Building
+## Building and developing
 
 Follow the [instructions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github) to build and push the action.
 
