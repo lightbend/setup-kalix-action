@@ -17,14 +17,14 @@ jobs:
           node-version: 21.4.0
       - run: npm i -g @vercel/ncc
       - run: npm i -g @vercel/ncc
-      - run: ncc build index.js --license LICENSE
+      - run: ncc build index.js
       - name: Check Uncommitted Changes
         run: |
           # Check if there are any uncommitted changes
           if [ -n "$(git status --porcelain)" ]; then      
             echo "Error: There are uncommitted changes in the repository!"
             git diff
-            echo "Error: Make sure that you have run `ncc build index.js --license LICENSE` command and committed files from `dist` folder."
+            echo "Error: Make sure that you have run 'ncc build index.js' command and committed files from `dist` folder."
             exit 1
           fi
           

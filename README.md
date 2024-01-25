@@ -36,7 +36,7 @@ jobs:
 Follow the [instructions](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action#commit-tag-and-push-your-action-to-github) to build and push the action.
 
 * update index.js file
-* run `ncc build index.js --license LICENSE`
+* run `ncc build index.js`
 * commit sources and `dist` folder
 
 ## Contributing
