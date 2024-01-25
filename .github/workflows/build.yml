@@ -25,7 +25,7 @@ jobs:
             git status --porcelain
             echo "Error: There are uncommitted changes in the repository!"
             git status --porcelain
-            echo "Error: Make sure that you have run `ncc build index.js --license LICENSE` command and committed files from `dist` folder.""
+            echo "Error: Make sure that you have run `ncc build index.js --license LICENSE` command and committed files from `dist` folder."
             exit 1
           fi
           
