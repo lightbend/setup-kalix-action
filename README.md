@@ -46,7 +46,7 @@ We welcome all contributions! [Pull requests](https://github.com/lightbend/setup
 
 ## Support
 
-This project is an [incubator](https://developer.lightbend.com/docs/introduction/getting-help/support-terminology.html)
+This project is an [incubator](https://doc.akka.io/docs/akka-dependencies/current/support-terminology.html#incubating)
 
 ## License
 
