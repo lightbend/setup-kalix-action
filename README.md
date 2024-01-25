@@ -4,7 +4,7 @@ This [JavaScript action](https://docs.github.com/en/actions/creating-actions/cre
 
 ## Usage
 
-The action takes two required variables to authenticate and set the project you want to work on:
+The action takes two required parameters to authenticate and set the Kalix project ID:
 
 * `token`: The Kalix authentication token
 * `project-id`: The Kalix project ID you're using
