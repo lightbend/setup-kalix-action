@@ -21,10 +21,9 @@ jobs:
       - name: Check Uncommitted Changes
         run: |
           # Check if there are any uncommitted changes
-          if [ -n "$(git status --porcelain)" ]; then
-            git status --porcelain
+          if [ -n "$(git status --porcelain)" ]; then      
             echo "Error: There are uncommitted changes in the repository!"
-            git status --porcelain
+            git diff
             echo "Error: Make sure that you have run `ncc build index.js --license LICENSE` command and committed files from `dist` folder."
             exit 1
           fi
