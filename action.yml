@@ -1,0 +1,12 @@
+name: 'Setup Kalix CLI'
+description: 'Setup and basic configuration of the Kalix CLI'
+inputs:
+  token:
+    description: 'Kalix refresh token, see: https://docs.kalix.io/operations/integrate-cicd.html#create_a_service_token'
+    required: true
+  project-id:
+    description: 'Kalix project id, check your project id with `kalix projects list`'
+    required: true
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
