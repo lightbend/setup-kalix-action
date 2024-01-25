@@ -16,7 +16,6 @@ jobs:
         with:
           node-version: 21.4.0
       - run: npm i -g @vercel/ncc
-      - run: npm i -g @vercel/ncc
       - run: ncc build index.js
       - name: Check Uncommitted Changes
         run: |
