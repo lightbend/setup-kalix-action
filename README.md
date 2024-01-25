@@ -1,6 +1,6 @@
 # Kalix CLI for GitHub Actions
 
-This [Java Script action](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) installs and configures [Kalix CLI](https://docs.kalix.io/kalix/index.html) tool. After this action is run, you can use the `kalix` command in your workflow. 
+This [JavaScript action](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) for GitHub workflows installs and configures the [Kalix CLI](https://docs.kalix.io/kalix/index.html) tool. After running this action, the `kalix` command is available in the workflow. 
 
 ## Usage
 
