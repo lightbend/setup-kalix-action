@@ -1,5 +1,8 @@
 name: 'Setup Kalix CLI'
 description: 'Setup and basic configuration of the Kalix CLI'
+branding:
+  color: 'green'
+  icon: zap
 inputs:
   token:
     description: 'Kalix refresh token, see: https://docs.kalix.io/operations/integrate-cicd.html#create_a_service_token'
