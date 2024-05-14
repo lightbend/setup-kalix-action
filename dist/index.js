@@ -30472,7 +30472,8 @@ async function run() {
     try {
         const token = core.getInput('token', { required: true });
         const projectId = core.getInput('project-id', { required: true });
-        const kalixBin = "/tmp/kalix-bin";
+        const runnerTempDir = process.env.RUNNER_TEMP;
+        const kalixBin = runnerTempDir + "/kalix-bin";
         console.log(`Downloading install-cli script`);
         const scriptPath = await tc.downloadTool('https://docs.kalix.io/install-cli.sh');
         console.log(`Downloaded ${scriptPath}`);
